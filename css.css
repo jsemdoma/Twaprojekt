@@ -1,0 +1,398 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.nav-btn:hover {
+  background-color: rgb(148, 1, 1);
+}
+
+h1 {
+  font-family: "Arial Narrow", sans-serif;
+  text-align: center;
+  font-size: 80px;
+  margin: 50px;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  word-wrap: break-word; /* Zalomení slov podle šířky okna */
+}
+
+h2 {
+  font-size: 35px;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  padding-left: 650px;
+  padding-top: 600px;
+  word-wrap: break-word; /* Zalomení slov podle šířky okna */
+}
+
+p {
+  font-family: "Arial Narrow", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin: 80px;
+  color: black;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  word-wrap: break-word; /* Zalomení slov podle šířky okna */
+}
+
+img {
+  width: 450px;
+  height: auto;
+  position: absolute;
+  top: 250px;
+  left: 600px;
+  transition: transform 0.3s;
+  border-radius: 10px;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.image2 {
+  width: 450px;
+  height: 255px;
+  position: absolute;
+  top: 250px;
+  left: 1100px;
+  transition: transform 0.3s;
+  border-radius: 10px;
+}
+
+.metro {
+  width: 400px;
+  height: auto;
+  position: absolute;
+  top: 550px;
+  left: 1300px;
+  transition: transform 0.1s;
+}
+
+.metro:hover {
+  transform: scale(1.8);
+}
+
+.imagick {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 700px;
+  left: 300px;
+  transition: transform 0.1s;
+}
+
+.imagick1 {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  top: 710px;
+  left: 600px;
+  transition: transform 0.1s;
+}
+
+.pismena {
+  font-family: "Arial Narrow", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin: 80px auto; /* Zarovnání na střed */
+  color: black;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  word-wrap: break-word; /* Zalomení slov podle šířky okna */
+  overflow-wrap: break-word; /* Alternativní způsob zalomení slov */
+}
+
+.metro3 {
+  width: 400px;
+  height: auto;
+  position: absolute;
+  top: 520px;
+  left: 1400px;
+  transition: transform 0.1s;
+}
+
+.metro3:hover {
+  transform: scale(1.4);
+}
+
+.hesp {
+  font-size: 80px;
+  margin: 50px auto; /* Zarovnání na střed */
+  text-align: center; /* Zarovnání na střed */
+}
+
+.fandom {
+  position: absolute;
+  top: 708px;
+  left: 250px;
+  height: 120px;
+  width: auto;
+  transition: transform 0.1s;
+}
+
+.artyom1 {
+  position: absolute;
+  left: 1300px;
+  top: 625px;
+  height: 200px;
+  width: auto;
+  transition: transform 0.1s;
+}
+
+.artyom1:hover {
+  transform: scale(1.8);
+}
+
+.pismena1 {
+  font-family: "Arial Narrow", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin: 80px auto; /* Zarovnání na střed */
+  color: black;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  max-width: 90%; /* Maximální šířka textu */
+  word-wrap: break-word; /* Zalomení slov podle šířky okna */
+}
+
+
+.Anna1 {
+  position: absolute;
+  top: 550px;
+  transition: transform 0.2s;
+}
+
+.Anna1:hover {
+  transform: scale(1.2);
+}
+
+.Anna2 {
+  position: absolute;
+  left: 1200px;
+  top: 550px;
+  transition: transform 0.2s;
+}
+
+.Anna2:hover {
+  transform: scale(1.2);
+}
+
+.popisek1 {
+  position: absolute;
+  top: 750px;
+  left: 1250px;
+}
+
+.popisek2 {
+  position: absolute;
+  top: 750px;
+  left: 600px;
+}
+
+.plukovnik {
+  position: absolute;
+  left: 600px;
+  top: 550px;
+}
+
+.fandom1 {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  height: 120px;
+  width: auto;
+  transition: transform 0.1s;
+}
+
+.plukovnik1 {
+  position: absolute;
+  top: 550px;
+  left: 150px;
+  transition: transform 0.2s;
+}
+
+.plukovnik1:hover {
+  transform: scale(1.2);
+}
+
+.plukovnik2 {
+  position: absolute;
+  top: 550px;
+  left: 720px;
+  transition: transform 0.2s;
+}
+
+.plukovnik2:hover {
+  transform: scale(1.2);
+}
+
+.plukovnik3 {
+  position: absolute;
+  top: 550px;
+  left: 1300px;
+  transition: transform 0.2s;
+}
+
+.plukovnik3:hover {
+  transform: scale(1.2);
+}
+
+.popisek3 {
+  position: absolute;
+  top: 750px;
+  left: 140px;
+}
+
+.popisek1_ {
+  position: absolute;
+  top: 750px;
+  left: 1340px;
+}
+
+.popisek2_ {
+  position: absolute;
+  top: 750px;
+  left: 720px;
+}
+
+.popisek3_ {
+  position: absolute;
+  top: 750px;
+  left: 200px;
+}
+
+.domu1 {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  top: 800px;
+  left: 90px;
+  transition: transform 0.1s;
+  top: 800px;
+  left: 90px;
+  transition: transform 0.1s;
+}
+
+.domu2 {
+  width: 110px;
+  height: auto;
+  position: absolute;
+  top: 790px;
+  left: 1750px;
+  transition: transform 0.1s;
+}
+
+.zdroje
+{
+  font-family: "Arial Narrow", sans-serif;
+  font-size: 35px;
+  text-align: center;
+  margin: 80px;
+  color: black;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  word-wrap: break-word; /* Zalomení slov podle šířky okna */
+}
+
+@media (max-width: 1200px) {
+  img,
+  .image2,
+  .metro,
+  .imagick,
+  .imagick1,
+  .metro3,
+  .fandom,
+  .artyom1,
+  .Anna1,
+  .Anna2,
+  .plukovnik,
+  .fandom1,
+  .plukovnik1,
+  .plukovnik2,
+  .plukovnik3,
+  .popisek1,
+  .popisek2,
+  .popisek3,
+  .popisek1_,
+  .popisek2_,
+  .popisek3_,
+  .domu1,
+  .domu2 {
+      position: static;
+      margin: 10px auto;
+      display: block;
+      transform: none;
+  }
+  h2 {
+      padding-left: 0;
+      padding-top: 20px;
+      text-align: center;
+  }
+  .nav-menu {
+      flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+      font-size: 50px;
+  }
+  p {
+      font-size: 30px;
+      margin: 20px;
+  }
+  h2 {
+      font-size: 20px;
+      padding-top: 10px;
+      padding-left: 0;
+      text-align: center;
+      position: relative;
+      top: 0;
+  }
+  .nav-btn {
+      font-size: 14px;
+      padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+      font-size: 30px;
+  }
+  p {
+      font-size: 20px;
+  }
+  .nav-btn {
+      font-size: 12px;
+      padding: 6px 12px;
+  }
+  h2 {
+      font-size: 18px;
+      padding-top: 10px;
+      padding-left: 0;
+      text-align: center;
+      position: relative;
+      top: 0;
+  }
+}
+
+
